@@ -1,3 +1,5 @@
+// api/index.ts
+
 import type { Request, Response } from '@vercel/node';
 
 import { createClient } from '@libsql/client';
