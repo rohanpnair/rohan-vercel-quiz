@@ -1,29 +1,10 @@
 {
-    "rewrites": [
-      { "source": "/api/(.*)", "destination": "/api" },
-      { "source": "/(.*)", "destination": "/index.html" }
-    ],
-    "headers": [
-      {
-        "source": "/api/(.*)",
-        "headers": [
-          { "key": "Access-Control-Allow-Origin", "value": "*" },
-          { "key": "Access-Control-Allow-Methods", "value": "GET,HEAD,POST,OPTIONS" },
-          { "key": "Access-Control-Allow-Headers", "value": "Content-Type" }
-        ]
-      },
-      {
-        "source": "/(.*)",
-        "headers": [
-          { "key": "Access-Control-Allow-Origin", "value": "*" }
-        ]
-      }
-    ],
-    "functions": {
-      "api/index.ts": {
-        "runtime": "edge"
-      }
-    },
-    "buildCommand": "npm run build",
-    "installCommand": "npm install && cd api && npm install"
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api" }
+  ],
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "nodejs20.x"
+    }
   }
+}
