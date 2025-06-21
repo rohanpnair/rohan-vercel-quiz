@@ -1,6 +1,7 @@
 // api/index.ts
 
-import type { Request, Response } from '@vercel/node';
+// No explicit import for Request and Response needed for Vercel's Node.js runtime types
+// They are typically globally available or derived from standard Node.js http types
 
 import { createClient } from '@libsql/client';
 
