@@ -9,5 +9,8 @@
     "devDependencies": {
         "@types/node": "^20.19.1",
         "typescript": "^5.x"
-    }
+    },
+    "scripts": {
+        "build": "react-scripts build"  
+}
 }
