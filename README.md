@@ -7,6 +7,7 @@ A simple, interactive quiz application built with React.js, designed to deliver 
 - Simple and clean UI built using React components.
 - Fully responsive design — works well on mobile, tablet, and desktop.
 - Hosted for free on Vercel.
+
 🛠️ Tech Stack
 - **React.js**
 - **HTML5**
