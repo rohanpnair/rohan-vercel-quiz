@@ -1,6 +1,37 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Brainiacs Quiz App
+
+This is a modern quiz web application built with React.js (JavaScript, HTML5, CSS3). It allows users to answer multiple-choice questions, tracks their score, and displays results. Ready for deployment on Vercel.
+
+## Features
+- Responsive, clean UI
+- Multiple-choice questions
+- Score tracking and result display
+- Built with React.js, HTML5, CSS3, JavaScript (ES6+)
+- Easy deployment to Vercel
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the app locally:
+
+```bash
+npm start
+```
+
+## Deployment
+
+1. Push this repository to GitHub.
+2. Connect your repo to [Vercel](https://vercel.com/).
+3. Deploy with default settings (Vercel auto-detects Create React App).
+
+## License
+MIT
 
 ## Available Scripts
 
